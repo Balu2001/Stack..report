@@ -1,0 +1,16 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    vector<bool>ve;
+    int arr[100]={1};
+    ve.push_back(10);
+    ve.emplace_back(20);
+    auto it=ve.begin();//automatic char stores the address of begin element
+    ve.erase(it+1);//stores the address of after begin element
+   for (int k=0,k<=99,k++){
+       cout<<" "<<arr[k];
+   }
+   
+}
+/*stack-----push()--pop()--isempyy--size()--
+nothing return void use-----int used for return int---
